@@ -1,0 +1,314 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 222, 222);
+    background-color: red;
+}
+
+.header .logo img {
+    width: 80px;
+    height: 45pX;
+}
+
+.menu {
+    flex: 2;
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu__list-item {
+    padding: 0px 20px;
+}
+
+.menu__list-item a {
+    color: #221f20;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-right li {
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right i {
+    color: #221f20;
+}
+
+.header-right input {
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.item-search {
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+
+/*------------------- Main --------------------*/
+.main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.product-main{
+    width: 100%;
+    height: 610px;
+  
+    margin-top: 10px;
+    display: flex;
+
+}
+.gallery-product{
+    width: 45%;
+    height: 100%;
+    padding: 0 15px 0 15px;
+
+}
+.pay-product{
+    width: 35%;
+    height: 100%;
+    line-height: 1.6;
+}
+.new-product{
+    width: 20%;
+    height: 100%;
+}
+
+/* slide */
+.gallery-product .container {
+    position: relative;
+    height: 476px;
+    width: 100%;
+    
+}
+.myslide {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.myslide img{
+    height: 448px;
+    width: 100%;
+    object-fit: contain;
+
+}
+.row {
+    background-color: aqua;
+}
+.row .column {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.column img {
+    width: 100px;
+    height: 100px;
+}
+.pay-product nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+#mausac{
+    height: 32px;
+
+    display: flex;
+    width: auto;
+}
+#mausac div{
+    margin-right: 10px;
+    height: 32px; width: 32px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    
+}
+.muangay{
+    height: 58px;
+    padding: 9px 0px 9px 0px;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.pay-product a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.pay-product #soluong{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.mota{
+    width: 100%;
+    height: auto;
+    
+
+}
+.mota-left{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+.motatop{
+    width: 75px;
+    height: 49px;
+    padding: 10px 15px 10px 15px;
+    background-color: #EAEAEA;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.motabottom{
+    width: 100%;
+    height: auto;
+    border: 1px #ddd solid;
+    padding: 20px 20px 20px 20px; 
+    margin-bottom: 20px;
+    
+}
+.motabottom img{
+    width: 100%;
+
+}
+.mota-right{
+    width: 40%;
+    height: auto;
+    float: right;
+    padding: 0px 10px 0px 10px;
+
+}
+.thongsokythuat{
+    width: 100%;
+    height: 49px;
+    background-color: #FED700;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.8;
+}
+.bangchitiet{
+    border-collapse: collapse;
+    width: 100%;
+}
+.bangchitiet tr,td{
+    border: 1px #ddd solid;
+    padding: 10px 10px 10px 10px;
+   
+    
+}
+
+
+
+/* san pham */
+.text-phone {
+    width: 180px;
+    background-color: black;
+    height: 30px;
+    padding-top: 7px;
+    margin-bottom: 20px;
+}
+
+.text-phone a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.text-phone a:hover {
+    color: #b1cb5c;
+}
+
+.list-phone1 {
+  
+    
+    text-align: center;
+    font-weight: bold;
+    
+    display: flex;
+}
+
+.list-phone1 .phone {
+    width: 20%;
+    padding: 10px;
+    margin-right: 0px;
+    
+    /* background-color: white; */
+}
+
+.list-phone1 .phone a {
+    text-decoration: none;
+    color: red;
+
+}
+
+.list-phone1 .phone img {
+    width: 100%;
+    height: 220px;
+    
+    object-fit: contain;
+}
+
+.list-phone1 p {
+    color: rgb(80, 136, 204);
+}
+
+
+
+
+/*------------------- Footer --------------*/
+.footer {
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 260px;
+}
+
+.footer .footer_item img {
+    width: 130px;
+    height: 110px;
+    padding-top: 10px;
+}
+
+.footer .footer_item {
+    width: 26%;
+    padding: 12px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 3%;
+}
+
+.footer .footer_item .pay img {
+    width: 220px;
+    height: 110px;
+}
+
+.test {
+    color: aqua;
+}

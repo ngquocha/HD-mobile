@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng | HD Mobile</title>
+    <link rel="stylesheet" href="cart.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+
+      <!-------------------- Header ------------------>
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="image/logo.png"></a>
+        </div>
+
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a href="index.html">TRANG CHỦ</a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="dienthoai.html">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        ĐIỆN THOẠI
+                    </a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="computer.html">
+                        <i class="fa-solid fa-laptop"></i>
+                        MÁY TÍNH
+                    </a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-headphones"></i>
+                        PHỤ KIỆN
+                    </a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-toolbox"></i>
+                        SỬA CHỮA
+                    </a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="order.html">TRA CỨU ĐƠN HÀNG</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <ul>
+                <li>
+                    <i class='item-search bx bx-search'></i>
+                    <input type="text" placeholder="Tìm kiếm">
+                </li>
+                <li>
+                    <a href="login.html"><i class="fa-solid fa-user"></i></i></a>
+                </li>
+                <li>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!------------------------ Main --------------------->
+    <div class="main">
+        <div class="container">
+            <div class="top">
+                <table class="list-sp">
+                    <tr>
+                        <th>Thông tin sản phẩm </th>
+                        <th>Màu sắc</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                    </tr>
+                    <tr>
+                        <td><img src=".\image\iPhone-11-mind.jpg" alt=""><a href="#" style="color: red;">Iphone 11
+                                64GB</a></td>
+                        <td>Xanh</td>
+                        <td><select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <span><b>9.990.000 <u>đ</u></b> </span>
+                            <a href="#">
+                                <button class="xoa">Xoá</button>
+                            </a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src=".\image\iPhone-11-red.jpg" alt=""> <a href="#" style="color: red;">Iphone 11
+                                64GB</a> </td>
+                        <td>Đỏ</td>
+                        <td><select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <span><b>9.990.000 <u>đ</u></b> </span>
+                            <a href="#">
+                                <button class="xoa">Xoá</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src=".\image\iPhone-11-white.jpg" alt=""> <a href="#" style="color: red;">Iphone 11
+                                64GB</a></td>
+                        <td>Trắng</td>
+                        <td><select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <span><b>9.990.000 <u>đ</u></b> </span>
+                            <a href="#">
+                                <button class="xoa">Xoá</button>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bottom">
+                <table class="tongtien">
+                    <tr>
+                        <th>
+                            <div>
+
+                                <button id="updatecart"> Cập nhật giỏ hàng</button>
+
+                            </div>
+                        </th>
+                        <th>
+                            <span id="tongtien">
+                                Tổng cộng:
+                                <b>29.970.000 <u>đ</u></b>
+
+                            </span>
+                        </th>
+                        <th>
+                            
+                                <button id="muahang"> Thanh Toán</button>
+                                </span>
+
+                            
+
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!------------------------- Footer------------------ -->
+
+</body>
+<!------------------------- Footer------------------ -->
+<footer class="footer">
+    <div class="footer_item">
+        <h4>HD Mobile</h4>
+        <p>Hotline hỗ trợ : 0836592523</p>
+        <p>Thời gian phục vụ: 08:30 – 21:00 hàng ngày (cả Chủ nhật & ngày lễ)</p>
+        <p>Email: nqha20902@gmail.com</p>
+        <p>Địa chỉ : 235 Hoàng Quốc Việt</p>
+    </div>
+    <div class="footer_item">
+        <div class="pay">
+            <h4>Hình thức thanh toán</h4>
+            <img src="./image/mastercard-visa.png" alt="">
+        </div>
+    </div>
+    <div class="footer_item">
+        <h4>Hình thức vận chuyển</h4>
+        <img src="./image/giaohang.png" alt="">
+    </div>
+</footer>
+
+</html>

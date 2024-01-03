@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 222, 222);
+    background-color: red;
+}
+.header .logo img{
+    width: 80px;
+    height: 45pX;
+}
+.menu {
+    flex: 2;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.menu__list-item {
+    padding: 0px 20px;
+}
+.menu__list-item a {
+    color: #221f20;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-right ul {
+    display: flex;
+    list-style: none;
+}
+.header-right li {
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.header-right i {
+    color: #221f20;
+}
+.header-right input {
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 40px;
+}
+.item-search {
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+/*---------------------- Main ----------------------*/
+.main {
+    width: 80%;
+    height: 442px;
+    margin: auto;
+    display: flex;
+}
+.main-left {
+    width: 50%;
+    text-align: center;
+    padding: 20px 90px 20px 0px;
+}
+.form-login input {
+    width: 390px;
+    height: 48px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid rgb(226, 222, 222);
+}
+.check-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 66px;
+}
+.check-box a {
+    color: #221f20;
+    font-size: 14px;
+}
+.check-box a:hover {
+    color: #682351;
+}
+.check-box-login span {
+    color: #9e9b9d;
+}
+.btn {
+    width: 390px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #221f20;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    border-width: 1px;
+}
+.btn:hover {
+    color: #221f20;
+    background-color: #fff;
+}
+.main-right {
+    width: 50%;
+    text-align: center;
+    padding: 0px 0px 20px 90px;
+    margin-top: 20px;
+    border-left: 1px solid rgb(226, 222, 222);
+}
+.title p {
+    color: #666e75;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+/*------------------- Footer --------------*/
+.footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 260px;
+}
+.footer .footer_item img{
+    width: 130px;
+    height: 110px;
+    padding-top: 10px;
+}
+.footer .footer_item{
+    width: 26%;
+    padding: 12px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 3%;
+}
+.footer .footer_item .pay img{
+    width: 220px;
+    height: 110px;
+}
